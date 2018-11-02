@@ -1,0 +1,34 @@
+{
+  "name": "google-calendar-tass-timetable",
+  "version": "1.0.0",
+  "description": "Exports a TASS Student Cafe timetable to Google Calendar events",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pl4nty/google-calendar-tass-timetable.git"
+  },
+  "keywords": [
+    "Google Calendar",
+    "TASS",
+    "Student Cafe"
+  ],
+  "author": "Thomas Plant",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/Pl4nty/google-calendar-tass-timetable/issues"
+  },
+  "homepage": "https://github.com/Pl4nty/google-calendar-tass-timetable#readme",
+  "devDependencies": {
+    "electron-packager": "^12.2.0",
+    "electron-reload": "^1.2.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "electron": "^3.0.4",
+    "googleapis": "^34.0.0"
+  }
+}
